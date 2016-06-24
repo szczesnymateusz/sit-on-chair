@@ -1,0 +1,216 @@
+@font-face {
+    font-family: 'ralewaybold';
+    src: url('../fonts/raleway-bold.woff2') format('woff2'),
+         url('../fonts/raleway-bold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'ralewayitalic';
+    src: url('../fonts/raleway-italic.woff2') format('woff2'),
+         url('../fonts/raleway-italic.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'ralewaylight';
+    src: url('../fonts/raleway-light.woff2') format('woff2'),
+         url('../fonts/raleway-light.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'ralewayregular';
+    src: url('../fonts/raleway-regular.woff2') format('woff2'),
+         url('../fonts/raleway-regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+body {
+  font-family: 'ralewayregular', sans-serif;
+}
+.mainWidth {
+  width: 1024px;
+  margin: auto;
+}
+.navigationContainer {
+  width: 100%;
+  height: 40px;
+  background-color: black;
+  margin: auto;
+}
+.logo {
+  color: white;
+  float: left;
+  text-transform: uppercase;
+  padding: 0 0 0 0;
+}
+.navigation {
+  width: 1024px;
+  border: 1px solid red;
+  display: inline-block;
+  line-height: 40px;
+}
+.menu {
+  float: right;
+}
+.menu li {
+  color: white;
+  display: inline-block;
+  list-style: none;
+  margin: 0 20px 0 20px;
+  margin-right: 0;
+}
+.containerSlider {
+  width: 100%;
+  background-color: lightgrey;
+}
+.sliderArrowLeft {
+  background-image: url("../images/arrow.png");
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  border: 1px solid red;
+  background-repeat: no-repeat;
+  transform: rotate(180deg);
+  float: left;
+  margin-top: 185px;
+}
+.sliderArrowRight {
+  background-image: url("../images/arrow.png");
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  border: 1px solid red;
+  background-repeat: no-repeat;
+  float: right;
+  margin-top: 185px;
+}
+.slider {
+  width: 1024px;
+  height: 400px;
+  border: 1px solid red;
+  margin: auto;
+}
+.containerSliderImage {
+  width: 30%;
+  border: 1px solid red;
+  display: inline-block;
+
+}
+.sliderImage {
+
+}
+.containerSliderText {
+  width: 40%;
+  border: 1px solid red;
+  display: inline-block;
+  margin: 40px 20px 20px 100px;
+  vertical-align: top;
+}
+h1 {
+  text-transform: uppercase;
+  text-align: center;
+}
+.sliderText {
+  text-align: center;
+}
+.sliderButton {
+  background-color: #27c7ab;
+  text-transform: uppercase;
+  color: white;
+  width: 200px;
+  height: 40px;
+  border-radius: 10px;
+  padding: 0 0 0 0;
+  border-style: none;
+  display: block;
+  margin: 0 auto;
+
+}
+.containerThreeBlocks {
+  width: 100%;
+  background-color: white;
+}
+.threeBlocks {
+  width: 1024px;
+  border: 1px solid red;
+  height: 320px;
+  margin: auto;
+}
+.firstBlock {
+  background-image: url("../images/box1_img.jpg");
+  width: 300px;
+  height: 200px;
+  display: inline-block;
+  margin: 20px 10px 40px 20px;
+  vertical-align: top;
+}
+.firstBlockBackgroundText {
+  background-color: white;
+  height: 20px;
+  display: block;
+}
+.firstBlock p {
+  border-bottom: 5px solid #27c7ab;
+
+}
+.secondBlock {
+  background-image: url("../images/box2_img.jpg");
+  width: 300px;
+  height: 200px;
+  display: inline-block;
+  vertical-align: top;
+  margin: 20px 10px 40px 20px;
+}
+.secondBlockBackgroundText {
+  background-color: white;
+  opacity: 0.25;
+  height: 60px;
+}
+.secondBlock p {
+  border-bottom: 5px solid #27c7ab;
+  text-align: center;
+}
+.thirdBlock {
+  width: 300px;
+  height: 200px;
+  background-color: white;
+  display: inline-block;
+  border: 1px solid lightgrey;
+  vertical-align: top;
+  margin: 20px 20px 40px 10px;
+}
+.thirdBlockText {
+  color: black;
+  font-size: 14px;
+  display: inline-block;
+  margin: 5px 5px 5px 5px;
+}
+.thirdBlock p:first-child {
+  border-bottom: 5px solid #27c7ab;
+}
+.containerPriceBlocks {
+  width: 100%;
+  background-color: white;
+}
+.priceBlocks {
+  width: 1024px;
+  border: 1px solid red;
+  margin: auto;
+  height: 400px;
+}
+.priceBlocks h3 {
+  text-transform: uppercase;
+}
+.firstPriceBlock {
+  width: 300px;
+  height: auto;
+  border: 1px solid lightgrey;
+}
+.circle {
+
+}
+.circleSmall {
+
+}
